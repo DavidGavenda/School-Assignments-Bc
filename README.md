@@ -1,7 +1,7 @@
 # School-Assignments-Bc
 All found assignments for my Bachelor's study in Applied Informatics
 
-**Please note that not all succesfully done courses are here, some of the missing ones are linear algebra, logical systems, discrete mathematics, computer networks, operating systems, analysis and complexity of alghorithms,algebraic structures and web development (one and two) and others**
+**Please note that not all succesfully done courses are here, some of the missing ones are linear algebra, logical systems, discrete mathematics, computer networks, operating systems, analysis and complexity of alghorithms,algebraic structures and web development (one and two) and others.**
 
 ## A graduate of the bachelor's program in Applied Informatics:
 
