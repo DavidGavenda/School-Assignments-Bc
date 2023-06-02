@@ -2,7 +2,6 @@
 All found assignments for my Bachelor's study in Applied Informatics
 
 ## MASTA - Mathematical statistics (Matematicka statistika)
-**Final grade : A** <br>
 Brief course outline: 
 1. Probability Theory
    - Random events, probability measures
