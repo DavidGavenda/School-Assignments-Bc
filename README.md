@@ -1,6 +1,20 @@
 # School-Assignments-Bc
 All found assignments for my Bachelor's study in Applied Informatics
 
+**Please note that not all succesfully done courses are here, some of the missing ones are linear algebra, logical systems, discrete mathematics, computer networks, operating systems, analysis and complexity of alghorithms,algebraic structures and web development (one and two) and others**
+
+A graduate of the bachelor's program in Applied Informatics:
+
+• Gains a complete bachelor's degree education in Applied Informatics, acquiring knowledge in key areas of computer science, skills in computer architecture, operating systems, logical systems, algorithmization and programming, and data collection, processing, and transfer. They will have knowledge of information and communication networks, mastering methods of modeling and simulation of systems and processes. The graduate will possess practical ability and skills to effectively use their acquired knowledge in the development and application of computer science methods and tools, particularly in a chosen application field.
+
+• Will be capable of analyzing, implementing, modifying, and modernizing computer and information systems. They will be able to find their own solutions to problems in designing and using information systems, particularly focusing on a given application area. The graduate can track the development of computer and information technology and update their knowledge and skills.
+
+• Will be capable of programming in various languages such as C, C++, Java. They will master modern development environments, such as Visual C++, Eclipse, Netbeans. They will have knowledge in data management, particularly in the area of relational databases and SQL language. They will be prepared to create web applications (PHP, Javascript, HTML5, Ajax) with knowledge of data exchange formats on the internet (XML, JSON), with databases on the internet, and with software tools for their management (including the use of SQL servers and clients). They will control the use of integration tools, so-called Middleware, including the use of application and web servers, such as Apache, Tomcat.
+
+• Will be prepared to independently and in teams solve and present projects. They can work as a consultant, analyst, system designer, developer, and IT specialist in IT companies, consulting firms, schools, scientific and research institutions. They can find employment in the design and application of information systems in all types of enterprises, organizations and services, in the private sector, banking, transportation, healthcare, industry, and more.
+
+# Present courses 
+
 ## DBS - Database systems
 
 Brief course outline: 
