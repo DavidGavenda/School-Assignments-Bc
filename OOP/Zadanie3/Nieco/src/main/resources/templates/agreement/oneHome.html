@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-orange.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+        }
+
+        .mdc-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mdc-drawer__header {
+            padding: 10px;
+        }
+
+        .mdc-list-item {
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+        }
+
+        .mdc-list-item__text {
+            padding-left: 10px;
+        }
+
+        .mdc-drawer {
+            border-right-color: rgba(0, 0, 0, .12);
+            border-right-style: solid;
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+<aside class="mdc-drawer">
+    <div class="mdc-drawer__header">
+        <h3 class="mdc-drawer__title">Zadanie 3</h3>
+        <h6 class="mdc-drawer__subtitle">David Gavenda</h6>
+    </div>
+    <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+            <a class="mdc-list-item" href="/user/">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
+                <span class="mdc-list-item__text">Users</span>
+            </a>
+        </nav>
+    </div>
+</aside>
+<div style="display: flex; flex-direction: column; width: 100%; overflow: auto">
+    <h1 style="margin: 10px;">Home insurance</h1>
+    <ul class="demo-list-item mdl-list">
+
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>ID:&nbsp;</span>
+                <span th:text="${agreement.id}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Creation date:&nbsp;</span>
+                <span th:text="${agreement.creationDate}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Validity since:&nbsp;</span>
+                <span th:text="${agreement.validitySince}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Validity till:&nbsp;</span>
+                <span th:text="${agreement.validityTill}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Insurer ID:&nbsp;</span>
+                <span th:text="${agreement.insurerId}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Insurance amount:&nbsp;</span>
+                <span th:text="${agreement.insuranceAmount}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Monthly payment:&nbsp;</span>
+                <span th:text="${agreement.monthlyPayment}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Property value:&nbsp;</span>
+                <span th:text="${agreement.propertyValue}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Property equipment value:&nbsp;</span>
+                <span th:text="${agreement.propertyEquipmentValue}"></span>
+            </span>
+        </li>
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Type of property:&nbsp;</span>
+                <span th:text="${agreement.typeOfProperty}"></span>
+            </span>
+        </li>
+
+
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <span>Address:&nbsp; </span>
+                <span th:text="${agreement.address.psc}"></span>
+                <span>&nbsp;</span>
+                <span th:text="${agreement.address.town} "> </span>
+                <span>&nbsp;</span>
+                <span th:text="${agreement.address.street} "> </span>
+                <span>&nbsp;</span>
+                <span th:text="${agreement.address.number} "> </span>
+            </span>
+        </li>
+
+
+
+</body>
+</html>

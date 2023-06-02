@@ -1,0 +1,26 @@
+[
+  {
+    "name": "David",
+    "surname": "Gavenda",
+    "birthNumber": "123455/1213",
+    "email" : "gavendadavid@gmail.com"
+  },
+  {
+    "name": "Jano",
+    "surname": "Gavenda",
+    "birthNumber": "123455/1213",
+    "email" : "gavendadavid@gmail.com"
+  },
+  {
+    "name": "David",
+    "surname": "Pepetko",
+    "birthNumber": "123455/1213",
+    "email" : "gavendadavid@gmail.com"
+  },
+  {
+    "name": "Pipik",
+    "surname": "Dudky",
+    "birthNumber": "123455/1213",
+    "email" : "gavendadavid@gmail.com"
+  }
+]

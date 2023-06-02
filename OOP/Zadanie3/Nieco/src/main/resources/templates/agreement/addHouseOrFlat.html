@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-orange.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+        }
+        .mdc-list {
+            display: flex;
+            flex-direction: column;
+        }
+        .mdc-drawer__header {
+            padding: 10px;
+        }
+        .mdc-list-item {
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+        }
+        .mdc-list-item__text {
+            padding-left: 10px;
+        }
+        .mdc-drawer {
+            border-right-color: rgba(0,0,0,.12);
+            border-right-style: solid;
+            width: 10%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<aside class="mdc-drawer">
+    <div class="mdc-drawer__header">
+        <h3 class="mdc-drawer__title">Zadanie 3</h3>
+        <h6 class="mdc-drawer__subtitle">David Gavenda</h6>
+    </div>
+    <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+            <a class="mdc-list-item" href="/user/">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
+                <span class="mdc-list-item__text">Users</span>
+            </a>
+        </nav>
+    </div>
+</aside>
+<div style="display: flex; flex-direction: column; width: 100%; overflow: auto">
+    <h1 style="margin: 10px;">Add house or flat insurance</h1>
+    <form action="#" th:action="@{/add_HouseOrFlat}" th:object="${agreement}" method="post">
+        <div class="mdl-textfield mdl-js-textfield">
+
+            <label>
+                <input type="hidden" th:field="*{id}"/>
+            </label>
+
+            <p> Creation Date :
+                <input class="mdl-textfield__input" type="date" id="creationDate" th:field="*{creationDate}" /></p>
+            <label class="mdl-textfield__label" for="creationDate"></label>
+            <p> Validity Since :
+                <input class="mdl-textfield__input" type="date" id="validitySince" th:field="*{validitySince}" /></p>
+            <label class="mdl-textfield__label" for="validitySince"></label>
+            <p> Validity Till :
+                <input class="mdl-textfield__input" type="date" id="validityTill" th:field="*{validityTill}" /></p>
+            <label class="mdl-textfield__label" for="validityTill"></label>
+            <p> Insurance amount :
+                <input class="mdl-textfield__input" type="number" id="insuranceAmount" th:field="*{insuranceAmount}" /></p>
+            <label class="mdl-textfield__label" for="insuranceAmount"></label>
+            <p> Monthly payment :
+                <input class="mdl-textfield__input" type="number" id="monthlyPayment" th:field="*{monthlyPayment}" /></p>
+            <label class="mdl-textfield__label" for="monthlyPayment"></label>
+
+            <p> Property value :
+                <input class="mdl-textfield__input" type="number" id="propertyValue" th:field="*{propertyValue}" /></p>
+            <label class="mdl-textfield__label" for="propertyValue"></label>
+
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <select class="mdl-textfield__input" name="insurerId" id="insurerId">
+                    <option th:each="user: ${users.values()}" th:value="${user.id}" th:text="${user.name}" th:field="*{insurerId}"></option>
+                </select>
+                <label class="mdl-textfield__label" for="insurerId">Insurer</label>
+            </div>
+
+
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="psc" th:field="*{address.psc}" /></p>
+                <label class="mdl-textfield__label" for="psc">PSC</label>
+            </div>
+
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="town" th:field="*{address.town}" /></p>
+                <label class="mdl-textfield__label" for="town">Town name</label>
+            </div>
+
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="street" th:field="*{address.street}" /></p>
+                <label class="mdl-textfield__label" for="street">Street name</label>
+            </div>
+
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="number" th:field="*{address.number}" /></p>
+                <label class="mdl-textfield__label" for="number">House number</label>
+            </div>
+
+            <p> Type of property :
+                <select name="typeOfProperty">
+                    <option th:each="typeOfProperty : ${T(sk.stuba.fei.uim.oop.eshop.agreements.NonLifeInsurance.ENUMS.TypeOfProperty).values()}"
+                            th:value="${typeOfProperty}"
+                            th:text="${typeOfProperty}"
+                    </option>
+                </select>
+            </p>
+
+            <p> Garage insurance :
+                <select name="garageInsurance">
+                    <option th:each="garageInsurance : ${T(sk.stuba.fei.uim.oop.eshop.agreements.NonLifeInsurance.ENUMS.GarageInsurance).values()}"
+                            th:value="${garageInsurance}"
+                            th:text="${garageInsurance}"
+                    </option>
+                </select>
+            </p>
+
+        </div>
+
+
+        <input type="submit" value="Submit" class="mdl-button mdl-js-button mdl-button--raised" style="width: fit-content;"/>
+    </form>
+</div>
+</body>
+</html>
+
