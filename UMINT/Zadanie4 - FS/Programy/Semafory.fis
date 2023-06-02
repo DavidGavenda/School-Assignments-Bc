@@ -1,0 +1,69 @@
+[System]
+Name='Semafory'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=25
+AndMethod='prod'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='hlavna_cesta_pocet_aut'
+Range=[0 40]
+NumMFs=5
+MF1='najmenej':'trimf',[0 1 5]
+MF2='malo':'trimf',[2 6 8]
+MF3='stredne':'trimf',[6 13 16]
+MF4='vela':'trimf',[13 21 25]
+MF5='najviac':'trimf',[20 30 40]
+
+[Input2]
+Name='vedlajsia_cesta_pocet_aut'
+Range=[0 40]
+NumMFs=5
+MF1='najmenej':'trimf',[0 1 5]
+MF2='malo':'trimf',[2 6 8]
+MF3='stredne':'trimf',[6 13 16]
+MF4='vela':'trimf',[13 21 25]
+MF5='najviac':'trimf',[20 30 40]
+
+[Output1]
+Name='interval_zelenej'
+Range=[0 40]
+NumMFs=5
+MF1='najkratsi':'trimf',[5 5 8]
+MF2='kratky':'trimf',[6 9 12]
+MF3='stredny':'trimf',[9 14 17]
+MF4='dlhy':'trimf',[14 18 22]
+MF5='najdlhsi':'trimf',[18 30 30]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 1 (1) : 1
+1 3, 1 (1) : 1
+1 4, 1 (1) : 1
+1 5, 1 (1) : 1
+2 1, 2 (1) : 1
+2 2, 2 (1) : 1
+2 3, 2 (1) : 1
+2 4, 2 (1) : 1
+2 5, 2 (1) : 1
+3 1, 3 (1) : 1
+3 2, 3 (1) : 1
+3 3, 3 (1) : 1
+3 4, 3 (1) : 1
+3 5, 3 (1) : 1
+4 1, 4 (1) : 1
+4 2, 4 (1) : 1
+4 3, 4 (1) : 1
+4 4, 4 (1) : 1
+4 5, 4 (1) : 1
+5 1, 5 (1) : 1
+5 2, 5 (1) : 1
+5 3, 5 (1) : 1
+5 4, 5 (1) : 1
+5 5, 5 (1) : 1

@@ -1,0 +1,8 @@
+clientTest\Ponuka.class
+clientTest\JedalenClientTest.class
+clientTest\JedalenClient.class
+rest\ApplicationConfig.class
+rest\Ponuka.class
+clientTest\Jedlo.class
+rest\Jedlo.class
+rest\GenericResource.class
