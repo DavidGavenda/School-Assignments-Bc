@@ -3,7 +3,7 @@ All found assignments for my Bachelor's study in Applied Informatics
 
 **Please note that not all succesfully done courses are here, some of the missing ones are linear algebra, logical systems, discrete mathematics, computer networks, operating systems, analysis and complexity of alghorithms,algebraic structures and web development (one and two) and others**
 
-**A graduate of the bachelor's program in Applied Informatics:**
+##A graduate of the bachelor's program in Applied Informatics:
 
 • Gains a complete bachelor's degree education in Applied Informatics, acquiring knowledge in key areas of computer science, skills in computer architecture, operating systems, logical systems, algorithmization and programming, and data collection, processing, and transfer. They will have knowledge of information and communication networks, mastering methods of modeling and simulation of systems and processes. The graduate will possess practical ability and skills to effectively use their acquired knowledge in the development and application of computer science methods and tools, particularly in a chosen application field.
 
