@@ -79,4 +79,5 @@ This course offers an understanding of the fundamental principles of several app
 
 ## VSA - Development of software applications
 Brief course outline:<br>
+
 This course provides students with theoretical knowledge and practical skills in software development focusing on multi-layer client-server architecture, object-relational mapping, and the MVC design pattern. The coursework enables students to design and implement a three-tier web application based on a complex data model. Topics covered include multi-layer client-server architecture, introduction to ORM, Java Persistence API (JPA), JavaServer Faces (JSF), Enterprise JavaBeans (EJB), Java Transaction API (JTA), administration and deployment of applications on the GlassFish application server, authentication, authorization, language localization, monitoring and testing web applications, and creating a complex three-tier web application.
