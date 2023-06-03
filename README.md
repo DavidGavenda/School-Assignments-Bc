@@ -17,9 +17,14 @@ Favourite courses: **MASTA** and **PROG1**. <br>
 
 • Will be prepared to independently and in teams solve and present projects. They can work as a consultant, analyst, system designer, developer, and IT specialist in IT companies, consulting firms, schools, scientific and research institutions. They can find employment in the design and application of information systems in all types of enterprises, organizations and services, in the private sector, banking, transportation, healthcare, industry, and more.
 
-**Please note that not all succesfully done courses are here, some of the missing ones are linear algebra, logical systems, discrete mathematics, computer networks, operating systems, analysis and complexity of alghorithms,algebraic structures and web development (one and two) and others.**
+**Please note that not all succesfully done courses are here, some of the missing ones are linear algebra, logical systems, discrete mathematics, computer networks, operating systems, analysis and complexity of alghorithms,algebraic structures and web development (two) and others.**
 
 # Present courses 
+
+## API - Computer architecture
+Brief course outline: <br>
+
+The course aims to equip students with an understanding of the principles of the main subsystems of digital computers, including the processor, buses, memory subsystem, and the input-output subsystem. It delves into the basic concepts of digital computers, multiprocessor and multicomputer systems, and the principles and reasons for encoding information in digital computers. Course topics range from basic computer concepts, data representation, and encoding to computer memory internals and peripherals, processor functionality, input-output subsystem, and real-time systems. It also provides an understanding of multiprocessor systems, computer networks, and the basic functions of operating systems. The course concludes with a classification of computers, processor performance, and a historical overview along with current and prospective computer trends.
 
 ## DBS - Database systems
 Brief course outline: <br>
@@ -81,3 +86,8 @@ This course offers an understanding of the fundamental principles of several app
 Brief course outline:<br>
 
 This course provides students with theoretical knowledge and practical skills in software development focusing on multi-layer client-server architecture, object-relational mapping, and the MVC design pattern. The coursework enables students to design and implement a three-tier web application based on a complex data model. Topics covered include multi-layer client-server architecture, introduction to ORM, Java Persistence API (JPA), JavaServer Faces (JSF), Enterprise JavaBeans (EJB), Java Transaction API (JTA), administration and deployment of applications on the GlassFish application server, authentication, authorization, language localization, monitoring and testing web applications, and creating a complex three-tier web application.
+
+## WEBTE - Web technologies
+Brief course outline: <br>
+
+The course aims to equip students with an understanding of the principles of the main subsystems of digital computers, including the processor, buses, memory subsystem, and the input-output subsystem. It delves into the basic concepts of digital computers, multiprocessor and multicomputer systems, and the principles and reasons for encoding information in digital computers. Course topics range from basic computer concepts, data representation, and encoding to computer memory internals and peripherals, processor functionality, input-output subsystem, and real-time systems. It also provides an understanding of multiprocessor systems, computer networks, and the basic functions of operating systems. The course concludes with a classification of computers, processor performance, and a historical overview along with current and prospective computer trends.
