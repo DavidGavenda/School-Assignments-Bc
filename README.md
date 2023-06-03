@@ -5,7 +5,7 @@ Favourite courses: **MASTA** and **PROG1**. <br>
 
 **Used technologies :** Python, C, C++, Java, Assembler, HTML, CSS, JavaScript, SQL...
 
-**Please note that none of these files were tinkered with or adjusted after they were originally created (beginner coding)**
+**Please note that none of these files were tinkered with or adjusted after they were originally created (beginner coding).**
 
 ## A graduate of the bachelor's program in Applied Informatics:
 
