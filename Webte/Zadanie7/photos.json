@@ -1,0 +1,50 @@
+{
+    "photos":
+    [
+      {
+        "src": "Hora1-mala.jpg",
+        "title": "Hora PoPo",
+        "description": "Je velmi vysoka"
+      },
+      {
+        "src": "Hora2-mala.jpg",
+        "title": "Hora so snehom",
+        "description": "Ma na sebe sneh"
+      },
+      {
+        "src": "Hora3-mala.jpg",
+        "title": "Hora s utesom",
+        "description": "Zahalena hmlou"
+      },    
+      {
+        "src": "Lake1-mala.jpg",
+        "title": "Jazero s clovekom",
+        "description": "Clovek tam pekne sedi"
+      },  
+      {
+        "src": "Lake2-mala.jpg",
+        "title": "Jazero bez cloveka",
+        "description": "Ma velmi pekne skaly"
+      },   
+      {
+        "src": "Lake3-mala.jpg",
+        "title": "Jazero s chatou",
+        "description": "Pekna, strasidelna chata"
+      },    
+      {
+        "src": "Savana1-mala.jpg",
+        "title": "Savana bez zvierat",
+        "description": "Ale ma stromy"
+      },    
+      {
+        "src": "Savana2-mala.jpg",
+        "title": "Savana so zirafou",
+        "description": "Pekna zlta zirafa"
+      },    
+      {
+        "src": "Savana3-mala.jpg",
+        "title": "Savana so zebrami",
+        "description": "Pekne tri zebry"
+      }
+    ]
+  }

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    margin-left: 4rem;
+    color: #235789;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.gallery {
+    margin: 10px 50px;
+    align-items: center;
+}
+
+.gallery img {
+    display: block;
+    transition: 0.5s;
+    padding: 15px;
+    width: 20vw;
+    min-width: 180px;
+    max-width: 360px;
+    height: 20vw;
+    min-height: 180px;
+    max-height: 360px;
+}
+
+.gallery img:hover {
+    filter : grayscale(100%);
+    transition: scale (1.1);
+    border-style: solid;
+    border-color: #235789;
+}
+
+form {
+    margin: auto;
+    justify-content: center;
+    width: 50vw;
+}
+
+label {
+    text-align: center;
+}

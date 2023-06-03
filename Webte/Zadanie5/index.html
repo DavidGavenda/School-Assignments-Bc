@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXtdryvBUoj7I1FdfgFvaqy5lf6yyn48o&callback=myMaps&&libraries=geometry,places"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Zadanie 5</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Maps</h1>
+        <div class= "form-group">
+            <div class="form-group">
+                    <input type="text" name="from" class="form-control" id="from" placeholder="Enter location">
+            </div>
+            <div class="form-check">
+                    <span>Travel by : </span>
+                <div class="form-check form-check-inline">
+                        <input onclick="changeRouteToDriving()" class="form-check-input" type="radio" name="routeMode" id="car" value="car" checked>
+                        <label class="form-check-label" for="car">Car</label>
+                </div>
+                <div class="form-check form-check-inline">
+                        <input onclick="changeRouteToWalking();" class="form-check-input" type="radio" name="routeMode" id="walk" value="walk">
+                        <label class="form-check-label" for="walk">Walk</label>
+                </div>
+                <span>Distance : <output id="distance">0</output>km</span>
+            </div>
+            <div class="row">
+                <div class = "col-xs-6 thingy" id="map"></div>
+                <div class = "col-xs-6 thingy" id="pano"></div>
+            </div>
+            <footer> © Dávid Gavenda 2020</footer>
+        </div>
+    </div>
+</body>
+</html>

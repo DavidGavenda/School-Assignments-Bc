@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <title>Zadanie 3</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Dotazník</h1>
+            </header>
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label for="meno">Meno</label>
+                        <span class="potrebne">*</span>
+                        <input type="text" class="form-control" id="meno" placeholder="John"  required>
+                        <div class="invalid-feedback">
+                            Zadaj platné meno!
+                        </div> 
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <label for="priezvisko">Priezvisko</label>
+                        <span class="potrebne">*</span>
+                        <input type="text" class="form-control" id="priezvisko" placeholder="Smith" required>
+                        <div class="invalid-feedback">
+                            Zadaj platné priezvisko!
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="narodenie">Dátum narodenia</label>
+                        <span class="potrebne">*</span>
+                        <input type="date" class="form-control" id="narodenie" required>
+                        <div class="invalid-feedback">
+                            Zadaj dátum!
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="vek">Vek</label>
+                        <input type="number" class="form-control" id="vek" min="1" max="100" required>
+                        <div class="invalid-feedback">
+                            Zadaj platné priezvisko!
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="email">E-mail</label>
+                        <span class="potrebne">*</span>
+                        <input type="email" name="email" placeholder="Tvoj email" class="email form-control" id="email" required>
+                        <div class="invalid-feedback">
+                            Zadaj platný e-mail!
+                        </div> 
+                    </div>
+                    
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Nie</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Xbox</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Nintendo</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                        <label class="form-check-label" for="inlineCheckbox4">PlayStation</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="myCheck" value="option5" onclick="zobraz()">
+                        <label class="form-check-label" for="inlineCheckbox5">Iné</label>
+                    </div>
+
+                    <div class="hidden" id="zona">
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+
+                    <div class="col-md-6">
+                        <select class="custom-select" id="sel1" onchange="giveSelection(this.value)">
+                            <option value="xbox">Xbox</option>
+                            <option value="playstation">PlayStation</option>
+                            <option value="nintendo">Nintendo</option>
+                          </select>
+                          <select class="custom-select" id="sel2">
+                            <option data-option="xbox">Xbox originálny</option>
+                            <option data-option="xbox">Xbox 360</option>
+                            <option data-option="xbox">Xbox One</option>
+
+                            <option data-option="playstation">PlayStation 1</option>
+                            <option data-option="playstation">PlayStation 2</option>
+                            <option data-option="playstation">PlayStation 3</option>
+                            <option data-option="playstation">PlayStation 4</option>
+
+                            <option data-option="nintendo">Domáca konzola</option>
+                            <option data-option="nintendo">Hanheldy</option>
+                          </select>
+                    </div>
+
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

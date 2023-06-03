@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie6</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script defer src="AmplitudeButton.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Graphs</h1>
+        </header>
+        <div id="graph">
+        </div> 
+        <div class="stuff">
+            <form class = "form-inline">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" onclick="toogleSin();" checked>Sinus
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" onclick="toogleCos();" checked>Cosinus
+                </div>
+            </form>
+            <div class="col-auto my-1">
+                <button class="btn btn-primary" id="terminator" onclick="terminator();">End</button>
+            </div>
+            <div class="col-auto my-1">
+                <button class="btn btn-primary" id="recovery" style="display: none;" onclick="recovery();">Continue</button>
+            </div>
+
+            <div class="form-check">
+                <amplitude-button></amplitude-button>
+            </div>
+            <footer>
+                © Dávid Gavenda 2020
+            </footer>
+        </div>  
+    </div> 
+
+
+    <script>
+      fetchData();
+    </script> 
+
+  </body>
+</html>
+
+

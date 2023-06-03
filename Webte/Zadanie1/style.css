@@ -1,0 +1,112 @@
+#container{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #feb236;
+    color: white;
+    font-size: 30px;
+  }
+
+.menu { 
+    height: 54px;
+}
+
+.menu li {
+    float: left;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li:hover {
+    background-color: #ff7b25;
+
+}
+
+#left {
+    float:left;
+    width: 30%;
+}
+
+#right {
+    float:left;
+    width: 70%;
+}
+
+#container {
+    margin-left: auto;
+}
+
+#footer {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+article{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-right: 50px;
+    padding-left:50px;
+}
+
+h2 {
+    text-decoration: underline  teal
+}
+
+nav {
+    background-color: teal;
+}
+
+footer {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+tr {
+    height: 70px;
+}
+table,tr ,td {
+    border-bottom: 1px solid lightgray;
+}
+
+td {
+    width: 150px;
+}
+
+tr,td {
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+
+.tablethingy{
+    background-color: lightgreen;
+}
+
+img{
+    border-radius: 2rem;
+    border: 0.25rem solid #feb236
+}
