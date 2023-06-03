@@ -22,8 +22,8 @@ Favourite courses: **MASTA** and **PROG1**. <br>
 # Present courses 
 
 ## DBS - Database systems
-
 Brief course outline: <br>
+
 This course provides a comprehensive introduction to databases and database management systems, exploring their structure, functionality, and key concepts. Starting with conceptual and logical modeling, it further delves into relational algebra, calculus, and the use of SQL. The course also covers important practices such as normalization for relational databases and physical modeling. Indexing, transaction management, and query optimization techniques are elucidated to optimize database operations. Further, the course dives into the concept of distributed databases, and wraps up with a focus on emerging trends in the database field.
 
 ## MASTA - Mathematical statistics
@@ -48,8 +48,8 @@ Brief course outline: <br>
    - Linear regression, ANOVA
 
 ## OOP - Object oriented programming 
-
 Brief course outline: <br>
+
 This course is designed to introduce students to the fundamental concepts of the object-oriented paradigm with the use of Java language. It begins with core principles such as coupling and cohesion, object creation, and usage of static methods, followed by an overview of Java basics. The course proceeds with class creation, encapsulation, and associations between classes, along with an exploration of packages and interfaces. Topics like nested types, programming against interfaces, and event handling are also covered. Further, the course delves into advanced topics such as inheritance, abstract classes, exceptions, and generic types. The course concludes with a study of collections and algorithms, enum types, input/output streams, and the Model-View-Controller (MVC) design pattern.
 
 ## PROG1 - Programming 1 
@@ -64,14 +64,17 @@ This course is designed to introduce students to the basics of algorithm design 
 
 ## PT - Programming techniques 
 Brief course outline: <br>
+
 This course provides in-depth knowledge on programming in the C++ language with a focus on searching and sorting techniques, such as quick sort, merge sort, bubble sort, insertion sort, and heap sort. It further explores the concept of algorithm complexity, linked lists, and recursion. Core concepts like classes, objects, methods, namespaces, constructors, destructors, dynamic memory allocation, and static objects are covered in detail. The course includes a study of the standard template library (STL), binary search trees, red-black trees, and various containers. Advanced topics such as function and operator overloading, polymorphism, templates, dynamic type conversion, and exception handling are also addressed. Lastly, the course delves into graph algorithms and object-oriented programming principles including abstract classes and virtual functions.
 
 ## PT - Programming techniques 
 Brief course outline: <br>
+
 This course provides a foundation in software engineering, with an emphasis on practical techniques used in the development of large and complex software systems. It covers all stages of the software life cycle, including analysis and specification of requirements, design, partial implementation, and testing. The course also touches on project management, change management, software reuse, rapid development, and software engineering security. Students will become familiar with the Unified Modeling Language (UML). Additionally, the course discusses critical systems, software process, system modeling, architecture design, object-oriented design, rapid and extreme programming, software recycling and reuse, software testing, and security considerations in software engineering.
 
 ## UMINT - Artifical intelligence 
 Brief course outline: <br>
+
 This course offers an understanding of the fundamental principles of several approaches in artificial intelligence, including artificial neural networks, evolutionary algorithms, fuzzy logic, expert systems, and multi-agent systems. The course further provides practical applications of these AI methodologies and guides students in implementing these AI approaches programmatically or with the assistance of proper software tools. Topics covered include the basics of AI, applications of artificial neural networks and genetic algorithms, the principles of fuzzy logic, and the basics and applications of expert systems and multi-agent systems.
 
 ## VSA - Development of software applications
