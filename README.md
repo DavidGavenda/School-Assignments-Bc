@@ -17,7 +17,7 @@ Favourite courses: **MASTA** and **PROG1**. <br>
 
 • Will be prepared to independently and in teams solve and present projects. They can work as a consultant, analyst, system designer, developer, and IT specialist in IT companies, consulting firms, schools, scientific and research institutions. They can find employment in the design and application of information systems in all types of enterprises, organizations and services, in the private sector, banking, transportation, healthcare, industry, and more.
 
-**Please note that not all succesfully done courses are here, some of the missing ones are linear algebra, logical systems, discrete mathematics, computer networks, operating systems, analysis and complexity of alghorithms,algebraic structures and web development (two) and others.**
+**Please note that not all succesfully done courses are here, some of the missing ones are linear algebra, logical systems, discrete mathematics, computer networks, operating systems, analysis and complexity of alghorithms,algebraic structures, web development (two) and others.**
 
 # Present courses 
 
