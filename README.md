@@ -48,6 +48,7 @@ Brief course outline:
    - Linear regression, ANOVA
 
 ## OOP - Object oriented programming 
+
 Brief course outline: 
 This course is designed to introduce students to the fundamental concepts of the object-oriented paradigm with the use of Java language. It begins with core principles such as coupling and cohesion, object creation, and usage of static methods, followed by an overview of Java basics. The course proceeds with class creation, encapsulation, and associations between classes, along with an exploration of packages and interfaces. Topics like nested types, programming against interfaces, and event handling are also covered. Further, the course delves into advanced topics such as inheritance, abstract classes, exceptions, and generic types. The course concludes with a study of collections and algorithms, enum types, input/output streams, and the Model-View-Controller (MVC) design pattern.
 
