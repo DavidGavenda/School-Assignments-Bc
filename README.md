@@ -5,6 +5,8 @@ Favourite courses: **MASTA** and **PROG1**. <br>
 
 **Used technologies :** Python, C, C++, Java, Assembler, HTML, CSS, JavaScript, SQL...
 
+**Please note that none of these files were tinkered with or adjusted after they were originally created (beginner coding)**
+
 ## A graduate of the bachelor's program in Applied Informatics:
 
 • Gains a complete bachelor's degree education in Applied Informatics, acquiring knowledge in key areas of computer science, skills in computer architecture, operating systems, logical systems, algorithmization and programming, and data collection, processing, and transfer. They will have knowledge of information and communication networks, mastering methods of modeling and simulation of systems and processes. The graduate will possess practical ability and skills to effectively use their acquired knowledge in the development and application of computer science methods and tools, particularly in a chosen application field.
